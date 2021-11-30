@@ -1,0 +1,24 @@
+git checkout branch : 전환
+git branch -v : 확인
+git branch -d branch : 제거
+git checkout -b branch : 생성
+git ls-files -d | xargs git checkout -- : 삭제 파일 복구
+
+[토큰]
+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
+
+[task 관련 노션]
+https://whip-canopy-3ec.notion.site/0878827148cf40c3a032c24f68b2bc16 
+
+[google docs]
+https://docs.google.com/document/d/1eFEfdLJ3OIk3OavMHkglgC5zsAzwf67_6hZZiJzuaDE/edit?usp=sharing
+
+[nwitter]
+https://nomadcoders.co/nwitter
+
+[UI]
+https://github.com/mui-org/material-ui
+
+로그인 상태 네비게이션 바
+로그인 안한 상태 네비게이션 바
+요리 사진 파트

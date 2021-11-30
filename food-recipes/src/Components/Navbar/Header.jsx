@@ -1,13 +1,29 @@
-//import logo from './logo.svg';
-import './App.css';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import React from 'react';
+//import styles from './Navbar.css';
 
-import Practice from './Components/Navbar/Practice.jsx';
+function Header() {
+  return (
+      <header className='header'>
+        <strong>Header</strong>
+        <ul>
+          <li>
+            <button>Home</button>
+          </li>
+          <li>
+            <button>Profile</button>
+          </li>
+        </ul>
+      </header>
+  );
+}
+
+export default Header;
 
 
+
+/*
 function App() {
   return (
-      /*
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -23,11 +39,8 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>*/
-          <Router>
-        <Route path = '/practice' component={Practice} />
-          </Router>
+    </div>
   );
 }
-
 export default App;
+ */
